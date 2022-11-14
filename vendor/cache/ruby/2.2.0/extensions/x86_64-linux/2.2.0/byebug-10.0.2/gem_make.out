@@ -1,0 +1,19 @@
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/byebug-10.0.2/ext/byebug
+/usr/share/rvm/rubies/ruby-2.2.10/bin/ruby -I /usr/share/rvm/rubies/ruby-2.2.10/lib/ruby/site_ruby/2.2.0 -r ./siteconf20221111-783-14d9irc.rb extconf.rb
+creating Makefile
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR="
+compiling context.c
+compiling byebug.c
+compiling breakpoint.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/byebug-10.0.2/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20221111-783-1vbiuzw/byebug

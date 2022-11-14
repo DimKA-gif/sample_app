@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if
+  [[ -s "/home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/environment" ]]
+then
+  source "/home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/environment"
+  exec ruby "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/environment'" >&2
+  exit 1
+fi
