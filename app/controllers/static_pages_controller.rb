@@ -1,4 +1,4 @@
 class StaticPagesController < ApplicationController
-  def ...
+  def about
   end
 end
