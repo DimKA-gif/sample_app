@@ -1,0 +1,24 @@
+have_header: checking for ruby/util.h... -------------------- yes
+
+"gcc -o conftest -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0/x86_64-linux -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0/ruby/backward -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0 -I.     -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat  -fPIC conftest.c  -L. -L/usr/share/rvm/rubies/ruby-2.2.10/lib -Wl,-R/usr/share/rvm/rubies/ruby-2.2.10/lib -L. -fstack-protector -rdynamic -Wl,-export-dynamic     -Wl,-R/usr/share/rvm/rubies/ruby-2.2.10/lib -L/usr/share/rvm/rubies/ruby-2.2.10/lib -lruby  -lpthread -lgmp -ldl -lcrypt -lm   -lc"
+/usr/share/rvm/rubies/ruby-2.2.10/lib/ruby/2.2.0/mkmf.rb:395: warning: Insecure world writable dir /mnt/c in PATH, mode 040777
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return 0;
+6: }
+/* end */
+
+"gcc -E -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0/x86_64-linux -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0/ruby/backward -I/usr/share/rvm/rubies/ruby-2.2.10/include/ruby-2.2.0 -I.     -O3 -fno-fast-math -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wunused-variable -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wno-packed-bitfield-compat  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby/util.h>
+/* end */
+
+--------------------
+

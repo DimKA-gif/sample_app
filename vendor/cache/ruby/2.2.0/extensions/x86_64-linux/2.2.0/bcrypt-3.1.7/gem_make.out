@@ -1,0 +1,20 @@
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/bcrypt-3.1.7/ext/mri
+/usr/share/rvm/rubies/ruby-2.2.10/bin/ruby -I /usr/share/rvm/rubies/ruby-2.2.10/lib/ruby/site_ruby/2.2.0 -r ./siteconf20230122-937-qpf4z4.rb extconf.rb
+checking for ruby/util.h... yes
+creating Makefile
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR="
+compiling crypt_blowfish.c
+compiling crypt.c
+compiling wrapper.c
+compiling bcrypt_ext.c
+compiling crypt_gensalt.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/dimon/workspace/sample_app/vendor/cache/ruby/2.2.0/gems/bcrypt-3.1.7/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20230122-937-1c97usn
