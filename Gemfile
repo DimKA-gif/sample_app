@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails',                '4.2.2'
 
-gem 'bcrypt',               '3.1.7'
+gem 'bcrypt', '~> 3.1.16'
 
 gem 'bootstrap-sass',       '3.4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
